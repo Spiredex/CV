@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="profileTitle profileDesc">
+  <title id="profileTitle">Portrait illustré</title>
+  <desc id="profileDesc">Illustration circulaire d'un portrait souriant sur fond turquoise.</desc>
+  <defs>
+    <clipPath id="portraitClip">
+      <circle cx="210" cy="210" r="195"/>
+    </clipPath>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d9eef0"/>
+      <stop offset="100%" stop-color="#bbcfd4"/>
+    </linearGradient>
+    <linearGradient id="shirtGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8eef2"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="210" cy="210" r="205" fill="#ffffff"/>
+  <g clip-path="url(#portraitClip)">
+    <rect width="420" height="420" fill="url(#bgGradient)"/>
+    <circle cx="340" cy="40" r="110" fill="#dbeff1" opacity="0.55"/>
+    <circle cx="85" cy="355" r="120" fill="#d5e4e8" opacity="0.7"/>
+
+    <path d="M84 396c15-66 68-117 126-117 72 0 126 34 157 117Z" fill="url(#shirtGradient)"/>
+    <path d="M152 310c22 17 45 27 59 27 17 0 39-9 62-27l22 86H129Z" fill="#d2dde3"/>
+    <path d="M168 278c11 18 25 28 42 28s31-10 42-28v-42h-84Z" fill="#d79a76"/>
+
+    <path d="M145 169c0-52 31-94 78-94s78 42 78 94c0 68-43 121-97 121-34 0-59-17-75-48-8-16-12-34-12-53Z" fill="#efc29e"/>
+    <path d="M153 194c-8-16-28-6-28 15 0 24 18 43 33 43Z" fill="#efc29e"/>
+    <path d="M286 194c8-16 28-6 28 15 0 24-18 43-33 43Z" fill="#efc29e"/>
+    <path d="M146 171c4-67 37-103 88-103 60 0 85 38 85 95 0 15-4 30-11 42-7-27-22-43-40-56-24 22-65 36-122 43Z" fill="#7b6251"/>
+    <path d="M166 160c7-36 36-67 82-67 39 0 67 20 84 52-17-50-55-80-104-80-53 0-92 39-100 95 10 2 24 2 38 0Z" fill="#6d5647"/>
+
+    <path d="M178 196c10-10 27-10 37 0" fill="none" stroke="#5d483e" stroke-linecap="round" stroke-width="6"/>
+    <path d="M237 196c10-10 27-10 37 0" fill="none" stroke="#5d483e" stroke-linecap="round" stroke-width="6"/>
+    <circle cx="194" cy="208" r="6" fill="#2a2a2a"/>
+    <circle cx="253" cy="208" r="6" fill="#2a2a2a"/>
+    <path d="M223 214v22c0 4 4 7 8 7" fill="none" stroke="#c98f6d" stroke-linecap="round" stroke-width="5"/>
+    <path d="M191 250c12 11 28 17 44 17 18 0 33-5 45-17" fill="none" stroke="#aa5d58" stroke-linecap="round" stroke-width="7"/>
+    <path d="M165 182c13-16 27-24 43-24M237 158c17 0 31 8 44 24" fill="none" stroke="#5d483e" stroke-linecap="round" stroke-width="8"/>
+  </g>
+</svg>
